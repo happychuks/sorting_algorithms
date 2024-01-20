@@ -35,6 +35,6 @@ typedef enum bool
 
 /* Sorting Algorithms */
 void bubble_sort(int *array, size_t size);
-
+void insertion_sort_list(listint_t **list);
 
 #endif /* SORT_H Prepared by Adioz Daniel & Happy Felix Chukwuma */
