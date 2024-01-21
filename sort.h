@@ -36,7 +36,24 @@ typedef enum bool
 /* Sorting Algorithms */
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
+
+
+
+/* selection sort algorithms */
+void ints_swapper(int *first_int, int *second_int);
+void selection_sort(int *array, size_t size);
+
+/* quick_sort.c algorithms */
+void ints_swapper(int *a, int *b);
+int lomuto_partition(int *array, size_t size, int left, int right);
+void lomuto_sort(int *array, size_t size, int left, int right);
+void quick_sort(int *array, size_t size);
+
+/* shell_sort */
 void shell_sort(int *array, size_t size);
 
+/* cocktail */
+void swap_nodes(listint_t **list, listint_t **n1, listint_t **n2);
+void cocktail_sort_list(listint_t **list);
 
 #endif /* SORT_H Prepared by Adioz Daniel & Happy Felix Chukwuma */
