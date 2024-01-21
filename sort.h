@@ -37,6 +37,9 @@ typedef enum bool
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 
+/* selection sort algorithms */
+void ints_swapper(int *first_int, int *second_int);
+
 /* quick_sort.c algorithms */
 void ints_swapper(int *a, int *b);
 int lomuto_partition(int *array, size_t size, int left, int right);
