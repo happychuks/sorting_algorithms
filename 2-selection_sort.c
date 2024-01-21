@@ -15,12 +15,11 @@ void ints_swapper(int *first_int, int *second_int)
 }
 
 /**
- * selection_sort - Sort an array of integers in ascending order
- *                  using the selection sort algorithm.
+ * selection_sort - Sorts an array of integers
  * @array: An array of integers.
  * @size: The size of the array.
  *
- * Description: Prints the array after each swap.
+ * Description: Prints the array after each swap happens
  */
 void selection_sort(int *array, size_t size)
 {

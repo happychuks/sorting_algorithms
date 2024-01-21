@@ -47,4 +47,7 @@ int lomuto_partition(int *array, size_t size, int left, int right);
 void lomuto_sort(int *array, size_t size, int left, int right);
 void quick_sort(int *array, size_t size);
 
+/* shell_sort */
+void shell_sort(int *array, size_t size);
+
 #endif /* SORT_H Prepared by Adioz Daniel & Happy Felix Chukwuma */
