@@ -39,6 +39,7 @@ void insertion_sort_list(listint_t **list);
 
 /* selection sort algorithms */
 void ints_swapper(int *first_int, int *second_int);
+void selection_sort(int *array, size_t size);
 
 /* quick_sort.c algorithms */
 void ints_swapper(int *a, int *b);
