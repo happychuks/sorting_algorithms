@@ -66,4 +66,9 @@ void new_merge_partition(size_t low, size_t top, int *array, int *temp);
 void new_merge(size_t low, size_t mid, size_t top, int *dest, int *src);
 void merge_sort(int *array, size_t size);
 
+/*radix_sort*/
+int get_max_value(int *arr, int n);
+void count_sort(int *arr, size_t n, int exp, int *output);
+void radix_sort(int *array, size_t size);
+
 #endif /* SORT_H Prepared by Adioz Daniel & Happy Felix Chukwuma */
