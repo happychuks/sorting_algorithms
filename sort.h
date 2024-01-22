@@ -62,9 +62,8 @@ void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2);
 void cocktail_sort_list(listint_t **list);
 
 /* merge_sort */
-void merge_arrays(
-size_t start, size_t middle, size_t end, int *destination, int *source);
-void recursive_merge(size_t low, size_t high, int *array, int *temp_storage);
+void new_merge_partition(size_t low, size_t top, int *array, int *temp);
+void new_merge(size_t low, size_t mid, size_t top, int *dest, int *src);
 void merge_sort(int *array, size_t size);
 
 #endif /* SORT_H Prepared by Adioz Daniel & Happy Felix Chukwuma */
