@@ -5,9 +5,11 @@
 ## Bubble Sort
 
 ### Description
+
 Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
 
 ### Implementation
+
 ```c
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n-1; i++)
@@ -24,9 +26,11 @@ void bubbleSort(int arr[], int n) {
 ## Insertion Sort
 
 ### Description
+
 Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms.
 
 ### Implementation
+
 ```c
 void insertionSort(int arr[], int n) {
     int i, key, j;
@@ -46,9 +50,11 @@ void insertionSort(int arr[], int n) {
 ## Quick Sort
 
 ## Description
+
 Quick Sort is a highly efficient sorting algorithm and is based on partitioning of array of data into smaller arrays.
 
 ## Implementation
+
 ```c
 void quickSort(int arr[], int low, int high) {
     if (low < high) {
@@ -80,5 +86,3 @@ int partition(int arr[], int low, int high) {
     return (i + 1);
 }
 ```
-
-

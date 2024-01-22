@@ -42,12 +42,15 @@ int hoare_partitioner(int *array, int first, int last, int size)
 
 	while (1)
 	{
+	  /*pivots <*/
 		do {
 		  current++;
-		  } while (array[current] < pivot);
+		} while (array[current] < pivot);
+
+    /*pivots >*/
 		do {
 		  finder--;
-		  } while (array[finder] > pivot);
+		} while (array[finder] > pivot);
 
 		if (current >= finder)
 		  return (current);
