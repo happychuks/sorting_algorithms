@@ -71,4 +71,10 @@ int get_max_value(int *arr, int n);
 void count_sort(int *arr, size_t n, int exp, int *output);
 void radix_sort(int *array, size_t size);
 
+/*bitonic_sort*/
+void quick_sort_hoare(int *array, size_t size);
+void swap_elements(int *array, ssize_t item1, ssize_t item2);
+int hoare_partitioner(int *array, int first, int last, int size);
+void quick_sort_recursive(int *array, ssize_t first, ssize_t last, int size);
+
 #endif /* SORT_H Prepared by Adioz Daniel & Happy Felix Chukwuma */
